@@ -1,0 +1,8 @@
+#ifndef INT32_H
+#define INT32_H
+
+/* sysdep: +long32 */
+
+typedef long int32;
+
+#endif

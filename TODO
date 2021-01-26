@@ -1,0 +1,16 @@
+ppro asm
+investigate MMX for pmmx and pii
+investigate SSE for piii
+
+fast little-endian loads on the sparc
+sparc asm; note the stall on int conversion
+
+fast little-endian loads on the alpha
+21164 scheduling; shouldn't hurt on the 21264
+
+tuning for other popular architectures
+
+more documentation; what do people want to see?
+more tests
+
+filter? not useful for typical packet protocols

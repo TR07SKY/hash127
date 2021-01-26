@@ -1,0 +1,9 @@
+auto
+
+auto: one of the following is chosen automatically
+idea: straightforward code, assuming 53-bit fp
+sparc: idea plus instruction scheduling
+x86-idea: straightforward code, using 64-bit x86 fp
+pentium-idea: x86-idea plus register assignment and instruction scheduling
+pentium: pentium-idea rewritten in asm
+ppro: better than pentium for the PPro, PII, PIII

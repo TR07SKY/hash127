@@ -1,0 +1,4 @@
+/usr/local
+
+This is the hash127 home directory. The library will be installed in
+.../lib; the include file will be installed in .../include.

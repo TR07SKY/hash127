@@ -1,0 +1,2 @@
+/* sysdep: +rpcc */
+#define HASRPCC 1

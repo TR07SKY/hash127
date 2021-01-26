@@ -1,0 +1,66 @@
+19990402
+	version: hash127 0.50, alpha.
+19990403
+	doc: eliminated BLURB; will use web page instead.
+	internal: used two31 in basic.c instead of 0x80000000.
+	ui: added null timings in speed.c.
+19990411
+	internal: added x86-idea.c, x86-idea.h.
+	internal: eliminated unnecessary zeroing in x86.c.
+19990413
+	internal: moved x86 to x86-sched.
+	internal: rewrote parts of x86.c in asm.
+	internal: sped up inner loop in x86 hash127(). 32 cycles/2 words.
+19990414
+	internal: rewrote all of x86.c in asm.
+19990415
+	version: hash127 0.52, alpha.
+19990417
+	doc: changed ``signature'' to ``authenticator'' throughout.
+19990427
+	doc: reorganized hash127.3.
+	doc: changed n to l in hash127.3.
+	doc: added MATHEMATICS section to hash127.3.
+	doc: added hash127_4bytes to hash127.3.
+19990501
+	ui: changed speed.c to initialize buf before timings.
+19990524
+	internal: simplified hash127_expand() in basic.c.
+	internal: unified the carry code between hash127_expand() and
+		hash127() in basic.c.
+	internal: eliminated unused variables in hash127() in basic.c.
+19990527
+	internal: eliminated unnecessary carrying after pad addition in
+		hash127() in basic.c.
+	ui: replaced size 30 with size 32 in speed.c.
+19990528
+	internal: included new opt/sparc.c with some casual scheduling.
+19990529
+	internal: added print-opt.sh.
+	internal: added conf-opt=auto.
+	doc: added struct hash127 layout notes to opt/basic.h.
+	doc: eliminated opt/*.notes in favor of a web page.
+	doc: eliminated INSTALL in favor of a web page.
+	version: hash127 0.55, alpha.
+19990626
+	doc: changed s to u in hash127 man page.
+	ui: changed speed.c to print cycles per byte, minus 0 time.
+	doc: placed opt/*.c, opt/*.h into the public domain.
+	doc: promised in man page that output can overlap input.
+	doc: noted in man page that hash127 may not be reentrant.
+	ui: added speed2.
+	ui: added accuracy2.
+	version: hash127 0.60, alpha.
+20000321
+	internal: upgraded various libraries for the test programs.
+	internal: upgraded to x86cpuid.
+	internal: introduced conf-opt=ppro.
+	internal: better naming for opt choices.
+	internal: introduced conf-cc=auto.
+	doc: eliminated man page in favor of a web page.
+	api: on x86, hash127() assumes that fp mode is set.
+	ui: eliminated speed2.
+	ui: speed prints byte counts.
+	ui: speed uses post-post timing instead of pre-post-pre-post.
+	api: added hash127_little().
+	version: hash127 0.70, beta.
